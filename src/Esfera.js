@@ -12,7 +12,7 @@ class Esfera {
         setInterval(this.mover, 50);
 
 
-        this.esfe = this.app.loadImage("/src/data/poderbueno0.png");
+        this.esfe = this.app.loadImage("./src/data/poderbueno0.png");
     }
 
     pintar() {

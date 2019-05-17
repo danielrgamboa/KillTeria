@@ -11,7 +11,7 @@ class Corazon {
         this.mover = this.mover.bind(this);
         setInterval(this.mover, 50);
 
-        this.cora = this.app.loadImage("/src/data/poderbueno1.png");
+        this.cora = this.app.loadImage("./src/data/poderbueno1.png");
     }
 
     pintar() {
