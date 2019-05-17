@@ -4,7 +4,7 @@ class Morado extends Defensor {
 
         super(app, x, y);
         this.vitaminas = [];
-        this.chica = this.app.loadImage("/src/data/bueno1.png");
+        this.chica = this.app.loadImage("./src/data/bueno1.png");
         this.sangre();
 
     }

@@ -4,7 +4,7 @@ class Verde extends Defensor {
 
         super(app, x, y);
         this.vitaminas = [];
-        this.chico = this.app.loadImage("/src/data/bueno0.png");
+        this.chico = this.app.loadImage("./src/data/bueno0.png");
         this.sangre();
 
     }
