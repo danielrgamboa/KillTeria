@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+body {
+  background-image: url("./img/fondoDos.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FFF7D2;
+}
+
+.historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 98vh;
+}
+
+.historia-logo {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.historia-logo img {
+  width: 40%;
+}
+
+.historia-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.historia-content-item {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 60px;
+}
+
+.historia-content-item p {
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.historia-content-item img {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.historia footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+.historia footer a {
+  border-radius: 30px;
+  background: #FFE2D2;
+  border: solid 1px #DDAC92;
+  font-family: 'Quicksand', sans-serif;
+  color: #DDAC92;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 500;
+  margin: 0 10px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.historia footer a:hover {
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.historia footer .activo {
+  background: #DDAC92;
+  color: #FFE2D2;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .historia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 98vh;
+  }
+  .historia-logo {
+    width: 60%;
+    text-align: center;
+  }
+  .historia-logo img {
+    width: 40%;
+  }
+  .historia-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .historia-content-item {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 50px;
+  }
+  .historia-content-item p {
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+  }
+  .historia-content-item img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .historia footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+  }
+  .historia footer a {
+    border-radius: 30px;
+    background: #FFE2D2;
+    border: solid 1px #DDAC92;
+    font-family: 'Quicksand', sans-serif;
+    color: #DDAC92;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  .historia footer a:hover {
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  .historia footer .activo {
+    background: #DDAC92;
+    color: #FFE2D2;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .historia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  .historia-logo {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .historia-logo img {
+    width: 40%;
+    min-width: 200px;
+  }
+  .historia-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .historia-content-item {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0;
+  }
+  .historia-content-item p {
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+  }
+  .historia-content-item img {
+    min-width: 150px;
+    width: 20%;
+    margin-bottom: 30px;
+  }
+  .historia footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0;
+  }
+  .historia footer a {
+    border-radius: 30px;
+    background: #FFE2D2;
+    border: solid 1px #DDAC92;
+    font-family: 'Quicksand', sans-serif;
+    color: #DDAC92;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  .historia footer a:hover {
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  .historia footer .activo {
+    background: #DDAC92;
+    color: #FFE2D2;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+/*# sourceMappingURL=historia.css.map */

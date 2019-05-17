@@ -1,0 +1,45 @@
+#blog {
+    background: rgb(196, 245, 195);
+    padding:20px;
+}
+
+
+#blog h3, #blog h4 {
+    text-align: center;
+}
+
+#contenedor-imgs article {
+    
+    width: 33% !important;
+    text-align: center;
+    justify-content: center;
+}
+
+#blog  .contenedor {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article  {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+@media(min-width:480px){
+    
+#contenedor-imgs article{
+        margin: 60px;
+        margin-bottom: 1px;
+        justify-content: center;
+    }
+    #blog img{
+        width: auto;
+    }
+
+}

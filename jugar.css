@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFF7D2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .p5Canvas {
+  border: solid #DDAC92 2px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+  position: fixed;
+  bottom: 40px;
+}
+
+footer a {
+  border-radius: 30px;
+  background: #FFE2D2;
+  border: solid 1px #DDAC92;
+  font-family: 'Quicksand', sans-serif;
+  color: #DDAC92;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 500;
+  margin: 0 10px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+footer a:hover {
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer .activo {
+  background: #DDAC92;
+  color: #FFE2D2;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=jugar.css.map */
